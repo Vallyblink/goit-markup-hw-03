@@ -1,3 +1,38 @@
- .columntitle{
-    color: blue;
- }
+.header a {
+   color: rgb(15, 20, 26);
+}
+
+.header-link {
+   text-decoration: none;
+   font-weight: 500;
+   font-size: 14;
+   line-height: 1.1428;
+   letter-spacing: 0.02;
+}
+/* line-height / font-size = 1.1428 */
+.section-main {
+   width: 600;
+   height: 1600;
+   background-color: rgba(47, 48, 58, 1);
+} 
+/* line-height / font-size = 1.1428 */
+.header {
+}
+.logo {
+}
+.header-link {
+}
+.section-main {
+}
+.main-title {
+}
+.column-title {
+}
+.column-descr {
+}
+.photo-title {
+}
+.name {
+}
+.role {
+}
