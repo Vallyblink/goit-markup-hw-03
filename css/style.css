@@ -1,38 +1,56 @@
-.header a {
-   color: rgb(15, 20, 26);
-}
 
 .header-link {
+   font-family: 'Roboto';
    text-decoration: none;
    font-weight: 500;
    font-size: 14;
    line-height: 1.1428;
    letter-spacing: 0.02;
+   color: rgb(15, 20, 26);
 }
 /* line-height / font-size = 1.1428 */
+.header-link:hover,
+.header-link:focus{
+   color: rgba(33, 150, 243, 1);
+}
+.header-link:active{
+   color: azure;
+}
+
+.header-nav {
+   list-style: none;
+}
+
 .section-main {
-   width: 600;
-   height: 1600;
    background-color: rgba(47, 48, 58, 1);
 } 
-/* line-height / font-size = 1.1428 */
-.header {
+
+.h1, h2, h3 {
+   margin: 0;
+
 }
-.logo {
+.header-contact{
+   font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 14;
+line-height: 1.1428;
+letter-spacing: 0.02;
+color: #757575;
 }
-.header-link {
+
+.header-contact:hover,
+.header-contact:focus{
+   color: rgba(33, 150, 243, 1);
+
 }
-.section-main {
-}
-.main-title {
-}
-.column-title {
-}
-.column-descr {
-}
-.photo-title {
-}
-.name {
-}
-.role {
+
+.main-button {
+   font-family: 'Roboto';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16;
+   line-height: 30;
+   color: #FFFFFF;
+   background: #2196F3;
 }
