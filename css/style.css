@@ -31,12 +31,13 @@
 }
 .header-contact{
    font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 14;
-line-height: 1.1428;
-letter-spacing: 0.02;
-color: #757575;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 14;
+   line-height: 1.1428;
+   letter-spacing: 0.02;
+   color: #757575;
+   text-decoration: none;
 }
 
 .header-contact:hover,
@@ -101,21 +102,21 @@ color: #757575;
 
 .name {
    
-font-family: 'Roboto';
-font-weight: 500;
-font-size: 16;
-line-height: 1.1875;
-letter-spacing: 0.03;
-color: #212121;
+   font-family: 'Roboto';
+   font-weight: 500;
+   font-size: 16;
+   line-height: 1.1875;
+   letter-spacing: 0.03;
+   color: #212121;
 }
 
 .role {
    font-family: 'Roboto';
-font-weight: 400;
-font-size: 16;
-line-height: 1.1875;
-letter-spacing: 0.03;
-color: #757575;
+   font-weight: 400;
+   font-size: 16;
+   line-height: 1.1875;
+   letter-spacing: 0.03;
+   color: #757575;
 }
 
 .footer{
@@ -129,4 +130,9 @@ color: #757575;
    line-height: 1.7142;
    letter-spacing: 0.03;
    color: #FFFFFF;
+   text-decoration: none;
+}
+
+.page {
+   
 }
