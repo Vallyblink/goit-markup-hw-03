@@ -1,10 +1,13 @@
+:root
+
+.body 
 
 .header-link {
    font-family: 'Roboto';
    text-decoration: none;
-   font-weight: 500;
+   font-weight: 500px;
    font-size: 14;
-   line-height: 1.1428;
+   line-height: 1.14;
    letter-spacing: 0.02;
    color: rgb(15, 20, 26);
 }
@@ -32,9 +35,9 @@
 .header-contact{
    font-family: 'Roboto';
    font-style: normal;
-   font-weight: 500;
+   font-weight: 500px;
    font-size: 14;
-   line-height: 1.1428;
+   line-height: 1.14;
    letter-spacing: 0.02;
    color: #757575;
    text-decoration: none;
@@ -66,8 +69,8 @@
 .main-title {
    font-family: 'Roboto';
    font-weight: 900;
-   font-size: 44;
-   line-height: 1.3636;
+   font-size: 44px;
+   line-height: 1.36;
    text-align: center;
    letter-spacing: 0.06;
    text-transform: uppercase;
@@ -76,26 +79,25 @@
 
 .column-title{
    font-family: 'Roboto';
-   font-weight: 700;
+   font-weight: 700px;
    font-size: 14;
-   line-height: 1.1428;
+   line-height: 1.14;
    letter-spacing: 0.03;
    text-transform: uppercase;
 }
 
 .column-descr {
    font-family: 'Roboto';
-   font-weight: 400;
    font-size: 14;
-   line-height: 1.7142;
+   line-height: 1.71;
    letter-spacing: 0.03;
 }
 
 .section-title{
    font-family: 'Roboto';
-   font-weight: 700;
+   font-weight: 700px;
    font-size: 36;
-   line-height: 1.1666;
+   line-height: 1.16;
    text-align: center;
    letter-spacing: 0.03;
 }
@@ -103,18 +105,17 @@
 .name {
    
    font-family: 'Roboto';
-   font-weight: 500;
+   font-weight: 500px;
    font-size: 16;
-   line-height: 1.1875;
+   line-height: 1.18;
    letter-spacing: 0.03;
    color: #212121;
 }
 
 .role {
    font-family: 'Roboto';
-   font-weight: 400;
    font-size: 16;
-   line-height: 1.1875;
+   line-height: 1.18;
    letter-spacing: 0.03;
    color: #757575;
 }
@@ -127,7 +128,7 @@
    font-family: 'Roboto';
    font-weight: 400;
    font-size: 14;
-   line-height: 1.7142;
+   line-height: 1.71;
    letter-spacing: 0.03;
    color: #FFFFFF;
    text-decoration: none;
@@ -155,7 +156,7 @@
 
 .portfolio-title {
    font-family: 'Roboto';
-   font-weight: 700;
+   font-weight: 700px;
    font-size: 18;
    line-height: 2.00;
    letter-spacing: 0.06;
@@ -166,7 +167,6 @@
 .portfolio-descr {
    font-family: 'Roboto';
    font-style: normal;
-   font-weight: 400;
    font-size: 16;
    line-height: 1.87;
    letter-spacing: 0.03;
