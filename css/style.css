@@ -17,14 +17,13 @@
  }
    /*Header*/
  .logo{
+    color: var(--primary-text-color);
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
-    line-height: 31px;
+    line-height: 1.71;
     text-decoration: none;
 
-    color: var(--primary-text-color);
  }
  span {
     color: var(--accent-color);
@@ -110,11 +109,11 @@
 }
 
 .column-title {
-color: var(--primary-text-color);    
+    color: var(--primary-text-color);    
 
-font-weight: 700;
-font-size: 14px;
-line-height: 1.14;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
 }
 
 .column-descr{
@@ -123,4 +122,78 @@ line-height: 1.14;
     font-size: 14px;
     line-height: 1.71;
 }
- 
+
+.name {
+    color: var(--primary-text-color);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+
+}
+
+.role {
+    color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.18
+
+}
+/* footer */
+footer{background-color: rgba(47, 48, 58, 1);}
+
+.footer-logo{
+    color:rgba(255, 255, 255, 1);
+
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.71;
+    text-decoration: none;
+}
+.adress {
+    color:rgba(255, 255, 255, 1);
+
+    font-size: 14px;
+    line-height: 1.71;
+    }
+
+    /* PortfolioPage */
+    
+.page-button{
+    color: var(--primary-text-color);
+    background: rgba(245, 244, 250, 1);
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+
+    text-align: center;
+    letter-spacing: 0.03em;
+    border-radius: 4px;
+
+}
+
+.page-button:hover,
+.page-button:focus{
+    color:  rgba(255, 255, 255, 1);
+    background: var(--accent-color);
+
+}
+
+.portfolio-title{
+    color: var(--primary-text-color);
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.00;
+
+    letter-spacing: 0.06em;
+}
+
+.portfolio-descr{
+    color: var(--secondary-text-color);
+
+    font-size: 16px;
+    line-height: 1.88;
+}
