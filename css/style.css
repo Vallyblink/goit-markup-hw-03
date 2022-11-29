@@ -2,18 +2,19 @@
     --primary-text-color: rgba(33, 33, 33, 1);
     --secondary-text-color: rgba(117, 117, 117, 1);
     --accent-color: rgba(33, 150, 243, 1);
+    --white-color:rgba(255, 255, 255, 1);
  
  }
  
  body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', sans-serif;
     letter-spacing: 0.03em;
-    text-decoration: none;
+    font-size: 14px;
  } 
 
- ul {
+ .list {
     list-style: none;
-
+    text-decoration: none;
  }
    /*Header*/
  .logo{
@@ -36,12 +37,16 @@
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration: none;
  }
 
  .navigation:hover,
- .navigation:focus{
+ .navigation:focus {
+    color: var(--accent-color);
+ }
+
+ .navigation:active,
+ .navigation:where{
     color: var(--accent-color);
  }
 
@@ -69,17 +74,17 @@
  }
 
  .main-button {
-    color:rgba(255, 255, 255, 1); 
+    color: var(--white-color);
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 
-    font-family:'Roboto';
+    font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    letter-spacing: 0.03em;
+    letter-spacing: 0.06em;
     
 
     width: 216px;
@@ -87,13 +92,14 @@
  }
  
  .main-title {
-   color:rgba(255, 255, 255, 1); 
+   color: var(--white-color);
 
    font-weight: 900;
     font-size: 44px;
     line-height:1.36;
     text-align: center;
     letter-spacing: 0.06em;
+    text-transform: uppercase;
  
 }
 
@@ -105,6 +111,7 @@
     line-height: 1.16;
     text-align: center;
     letter-spacing: 0.03em;
+    text-transform: uppercase;
 
 }
 
@@ -152,10 +159,12 @@ footer{background-color: rgba(47, 48, 58, 1);}
     text-decoration: none;
 }
 .adress {
-    color:rgba(255, 255, 255, 1);
+    color:var(--white-color);
 
     font-size: 14px;
     line-height: 1.71;
+    text-decoration: none;
+    font-style: normal;
     }
 
     /* PortfolioPage */
@@ -164,6 +173,7 @@ footer{background-color: rgba(47, 48, 58, 1);}
     color: var(--primary-text-color);
     background: rgba(245, 244, 250, 1);
 
+    font-family:'Roboto', sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -176,7 +186,7 @@ footer{background-color: rgba(47, 48, 58, 1);}
 
 .page-button:hover,
 .page-button:focus{
-    color:  rgba(255, 255, 255, 1);
+    color: var(--white-color);
     background: var(--accent-color);
 
 }
