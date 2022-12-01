@@ -33,7 +33,11 @@
     letter-spacing: 0.03em;
     font-size: 14px;
  } 
-
+ 
+.section{
+   padding-top: 94px;
+   padding-bottom: 94px;
+}
 
  .list {
     list-style: none;
@@ -141,10 +145,6 @@
    /* word-wrap: normal; */
  }
 
- .benefits {
-   padding: 94px 215px;
-   
- }
 
  .main-title {
    color: var(--white-color);
@@ -192,15 +192,11 @@
    
                                    /* WORK SECTION------------------------------------------------------------ */
 
-   .work {
-      padding: 0 215px 95px 215px;
-   }
+
    
    /* -----------------------------TEAM SECTION----------------------------------- */
   
-   .team {
-      padding: 94px 215px;
-   }
+
   
    .name {
     color: var(--primary-text-color);
