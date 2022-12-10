@@ -18,21 +18,23 @@
 
     <header class="header">
         <div class="container">
-            <nav class="nav">   
+            <nav class="main-nav">   
                 <a class="logo" href="WebStudio"> <span>Web</span>Studio</a>
-                <ul class="list">
+                <ul class="site-nav list">
                     
                     <li><a class="navigation current" href="./index.html">Студія</a> </li>
                     <li><a class="navigation" href="./portfolio.html">Портфоліо</a></li>
                     <li><a class="navigation" href="Контакти">Контакти</a> </li>
                     
+                </ul> 
+                
+                <ul class="auth-nav list">
+                    <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
             </nav>
         
-            <ul class="list">
-                    <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
-            </ul>
+          
         </div>
         
     </header>
@@ -77,7 +79,7 @@
 
         </section>
                   
-        <section class="section">
+        <section class="section no-padding">
             <div class="container">
                     <h2 class="section-title work">Чим ми займаємося</h2>
                 <ul class="list"> 
@@ -103,8 +105,8 @@
         <section class="section">
             <div class="container">
                     <h2 class="section-title">Наша команда</h2>
-                <ul class="list">
-                    <li>
+                <ul class="list team">
+                    <li class="team">
                         <img src="./images/teamcard1(1).jpg" alt="Product Designer"
                         width="270"
                         height="260">
@@ -112,7 +114,7 @@
                         <p class="role"  lang="en">Product Designer</p>
                     </li>
 
-                    <li>
+                    <li class="team">
                         <img src="./images/teamcard2(1).jpg" alt="Frontend Developer"
                         width="270"
                         height="260">
@@ -120,7 +122,7 @@
                         <p class="role"  lang="en">Frontend Developer</p>
                     </li>
 
-                    <li>
+                    <li class="team">
                         <img src="./images/teamcard3(1).jpg" alt="Marketing"
                         width="270"
                         height="260">
@@ -128,7 +130,7 @@
                         <p class="role"  lang="en">Marketing</p>
                     </li>
 
-                    <li>
+                    <li class="team">
                         <img src="./images/teamcard4(1).jpg" alt="UI Designer"
                         width="270"
                         height="260">
@@ -143,14 +145,17 @@
 
     <footer class="footer">
         <div class="container">
-                <a class="footer-logo" href="WebStudio"> <span>Web</span>Studio</a>
-            <address>
-                <ul class="list">
+            <nav class="footer-li">   
+                 <a class="footer-logo" href="WebStudio"> <span>Web</span>Studio</a>
+                <address>
+                <ul class="footer-list">
                     <li><a class="adress" href="https://goo.gl/maps/pS8TxzaBrTARouAY9">м. Київ, пр-т Лесі Українки, 26</a> </li>
                     <li><a class="footer contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="footer contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-            </address>
+                </address>
+            </nav>
+              
         </div>
     </footer>
 </body>

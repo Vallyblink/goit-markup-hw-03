@@ -18,13 +18,15 @@
  ul{
    margin: 0;
    padding: 0;
+   list-style: none;
  }
 
  .container {
    width: 1200px;
    padding-left: 15px;
    padding-right: 15px;
-   margin: 0 auto;
+   margin-left: auto;
+   margin-right: auto;
    outline: 1px solid red;
  }
 
@@ -39,14 +41,39 @@
    padding-bottom: 94px;
 }
 
- .list {
-    list-style: none;
-    text-decoration: none;
- }
+.section.no-padding{
+   padding-top: 0px;
+   padding-bottom: 0px;
+}
+
+
    /*Header*/
-.header {
+
+ .site-nav,
+ .auth-nav {
+  display: flex;
+ }
+
+ .site-nav li :not(last child) {
+   margin-right: 50px;
+
+ }
+
+ .auth-nav li :not(last child){
+   margin-right: 40px;
+ }
+
+ .main-nav{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+ }
+
+   .header {
    padding-top: 24px;
    padding-bottom: 24px;
+   border-bottom: 1px solid #ECECEC;
+
 }
 
  .logo{
@@ -77,6 +104,10 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: block;
+
  }
 
 
@@ -95,6 +126,11 @@
     letter-spacing: 0.02em;
     text-decoration: none;
     font-style: normal;
+
+    padding-top: 21px;
+    padding-bottom: 21px;
+    display: block;
+
 
  }
 
@@ -131,19 +167,7 @@
  }
 
                              /* Benefits */
- .hide {
-   border:0;
-   height: 1px;
-   margin: -1px;
-   overflow: hidden;
-   padding: 0;
-   width: 1px;
-   /* clip: rect(1px, 1px, 1px, 1px);
-   -webkit-clip-path:inset (50%);
-   clip-path:inset (50%); */
-   
-   /* word-wrap: normal; */
- }
+
 
 
  .main-title {
@@ -170,7 +194,21 @@
     letter-spacing: 0.03em;
 
     margin-bottom: 50px;
-}
+} 
+
+ .hide {
+   border:0;
+   height: 1px;
+   margin: -1px;
+   overflow: hidden;
+   padding: 0;
+   width: 1px;
+   /* clip: rect(1px, 1px, 1px, 1px);
+   -webkit-clip-path:inset (50%);
+   clip-path:inset (50%); */
+   
+   /* word-wrap: normal; */
+ }
 
 .column-title {
     color: var(--primary-text-color);    
@@ -189,25 +227,52 @@
     font-size: 14px;
     line-height: 1.71;
 }
+
+.list{
+   display: flex;
    
-                                   /* WORK SECTION------------------------------------------------------------ */
+}
+
+.list li :not(last child){
+   margin-right: 30px;
+}
+   
+                                      /* WORK SECTION------------------------------------------------------------ */
 
 
    
    /* -----------------------------TEAM SECTION----------------------------------- */
   
+   li.team {
+   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+   border-radius: 0px 0px 4px 4px;
+
+   text-align: center;
+
+   width: 270px;
+   height: 368px;
+
+}
+.list.team :not(last child ){
+   margin-right: 30px;
+   
+}
 
   
-   .name {
+.name {
     color: var(--primary-text-color);
 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 
-    margin-bottom: 10px;
+   margin-top: 30px;
+   margin-bottom: 10px;
+   margin-right: 0px;
 
-   }
+
+ 
+}
 
    .role {
       color: var(--secondary-text-color);
@@ -215,6 +280,8 @@
       font-size: 16px;
       line-height: 1.18
 
+
+      
    }
 
 
@@ -222,8 +289,15 @@
 
    footer{
       background-color: rgba(47, 48, 58, 1);
-      padding:215px 60px  ;
+      padding:60px 60px  ;
    }
+   
+   .footer-list{
+      display: flex;
+      flex-direction: column;
+
+   }
+   
 
 .footer-logo{
     color:rgba(255, 255, 255, 1);
@@ -234,7 +308,6 @@
     line-height: 1.71;
     text-decoration: none;
 
-    margin-bottom: 28px;
 }
 .adress {
     color:var(--white-color);
@@ -244,7 +317,6 @@
     text-decoration: none;
     font-style: normal;
 
-    margin-bottom: 12px;
     }
 
     .footer.contact{
@@ -259,7 +331,36 @@
 
     /*------------------------------------- PortfolioPage --------------------*/
     
-.page-button{
+    .page-nav{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 50px;
+    }
+
+    .page-nav li :not(last child ){
+      margin-right: 8px;
+    }
+
+    .page-list{
+      display: flex;
+      flex-wrap: wrap;
+     
+    }
+
+    .page-li{
+      width:370px;
+      border: 1px solid #EEEEEE;
+      margin-right: 30px;
+      margin-bottom: 30px;
+    }
+
+    .page-li:nth-child(3n){
+      margin-right: 0;
+    }
+
+
+    .page-button{
     color: var(--primary-text-color);
     background: rgba(245, 244, 250, 1);
 
@@ -271,6 +372,8 @@
     text-align: center;
     letter-spacing: 0.03em;
     border-radius: 4px;
+
+    padding: 6px 22px;
 
 }
 
@@ -297,3 +400,4 @@
     font-size: 16px;
     line-height: 1.88;
 }
+
