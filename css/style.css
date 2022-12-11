@@ -375,11 +375,10 @@
       align-items: center;
       justify-content: center;
       margin-bottom: 50px;
+      gap: 8px;
     }
 
-    .page-nav li :not(last child ){
-      margin-right: 8px;
-    }
+    
 
     .page-list{
       display: flex;
@@ -389,13 +388,16 @@
 
     .page-li{
       width:370px;
-      border: 1px solid #EEEEEE;
       margin-right: 30px;
       margin-bottom: 30px;
     }
 
     .page-li:nth-child(3n){
       margin-right: 0;
+    }
+
+    .page-li:nth-child(n+6){
+      margin-bottom: 0;
     }
 
 
@@ -434,6 +436,7 @@
     letter-spacing: 0.06em;
 
     margin-top: 20px;
+    margin-bottom: 4px;
 }
 
 .portfolio-descr{
@@ -441,5 +444,13 @@
 
     font-size: 16px;
     line-height: 1.88;
+}
+
+.portfolio-div{
+   padding: 24px 20px;
+   border-top: 1px solid #EEEEEE;
+   border-bottom: 1px solid #EEEEEE;
+   border-left: 1px solid #EEEEEE;
+   border-right: 1px solid #EEEEEE;
 }
 
