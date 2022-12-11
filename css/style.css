@@ -35,7 +35,11 @@
     letter-spacing: 0.03em;
     font-size: 14px;
  } 
- 
+ img{
+   display: block;
+   max-width: 100%;
+   height: auto;
+ }
 .section{
    padding-top: 94px;
    padding-bottom: 94px;
@@ -54,26 +58,32 @@
   display: flex;
  }
 
- .site-nav li :not(last child) {
-   margin-right: 50px;
-
+ .site-nav {
+ gap: 50px;
  }
 
- .auth-nav li :not(last child){
-   margin-right: 40px;
+ .auth-nav{
+   gap: 40px;
+   justify-content: end;
  }
+   
 
  .main-nav{
    display: flex;
    align-items: center;
-   justify-content: space-around;
+   margin-right: 200px;
+   
  }
 
    .header {
-   padding-top: 24px;
-   padding-bottom: 24px;
+   padding-top: 25px;
+   padding-bottom: 25px;
    border-bottom: 1px solid #ECECEC;
 
+}
+
+.container.header-nav{
+   display: flex;
 }
 
  .logo{
@@ -84,6 +94,7 @@
     line-height: 1.71;
     text-decoration: none;
     text-align: start;
+    margin-right: 93px;
 
  }
 
@@ -130,7 +141,8 @@
     padding-top: 21px;
     padding-bottom: 21px;
     display: block;
-
+ 
+    margin-left: auto;
 
  }
 
@@ -144,7 +156,7 @@
 
  .section-main {
     background-color: rgba(47, 48, 58, 1);
-    padding: 200px 45px;
+    padding: 200px 0px;
  }
 
  .main-button {
@@ -152,6 +164,7 @@
     background-color: var(--accent-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: 0px;
 
     font-family:'Roboto', sans-serif;
     font-weight: 500;
@@ -181,7 +194,10 @@
     text-transform: uppercase;
 
     margin-bottom: 30px;
- 
+   margin-left: auto;
+   margin-right: auto;
+
+   width: 696px;
 }
 
 .section-title {
@@ -228,14 +244,15 @@
     line-height: 1.71;
 }
 
-.list{
+.list-benefits{
    display: flex;
-   
+   gap: 30px;
+   flex-basis: content;
+   padding-bottom: 94px;
+
 }
 
-.list li :not(last child){
-   margin-right: 30px;
-}
+
    
                                       /* WORK SECTION------------------------------------------------------------ */
 
@@ -243,21 +260,37 @@
    
    /* -----------------------------TEAM SECTION----------------------------------- */
   
-   li.team {
+
+.list-team{
+   display: flex;
+   gap: 30px;
+
+}
+
+.team-list{
+   display: flex;
+   gap: 30px;
+}
+
+.team-list li {
    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
    border-radius: 0px 0px 4px 4px;
 
    text-align: center;
 
    width: 270px;
-   height: 368px;
 
 }
-.list.team :not(last child ){
-   margin-right: 30px;
-   
+
+.namerole{
+   padding-top: 30px;
+   padding-bottom: 30px;
 }
 
+.team.section{
+   background-color: rgba(245, 244, 250, 1);
+   ;
+}
   
 .name {
     color: var(--primary-text-color);
@@ -289,12 +322,12 @@
 
    footer{
       background-color: rgba(47, 48, 58, 1);
-      padding:60px 60px  ;
+      padding:60px 0  ;
    }
    
    
 
-.footer-logo{
+   .footer-logo{
     color:rgba(255, 255, 255, 1);
 
     font-family: 'Raleway';
@@ -302,9 +335,10 @@
     font-size: 26px;
     line-height: 1.71;
     text-decoration: none;
+    margin-bottom: 20px;
 
 }
-.adress {
+   .adress {
    display: block;
     color:var(--white-color);
 
@@ -328,6 +362,10 @@
       padding: 0 0;
 
 
+    }
+
+    .footer-list li :not(last child){
+      margin-bottom: 8px;
     }
 
     /*------------------------------------- PortfolioPage --------------------*/

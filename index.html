@@ -4,8 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/style.css">
-    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"></head>
@@ -13,11 +11,11 @@
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q==" 
         crossorigin="anonymous" 
         referrerpolicy="no-referrer" />
-
+    <link rel="stylesheet" href="./css/style.css">
 <body>
 
     <header class="header">
-        <div class="container">
+        <div class="container header-nav">
             <nav class="main-nav">   
                 <a class="logo" href="WebStudio"> <span>Web</span>Studio</a>
                 <ul class="site-nav list">
@@ -28,12 +26,12 @@
                     
                 </ul> 
                 
+               
+            </nav>
                 <ul class="auth-nav list">
                     <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
                     <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
-            </nav>
-        
           
         </div>
         
@@ -54,7 +52,7 @@
         <section class="section">
             <div class="container">
                 <h2 class="section-title hide">Основні переваги</h2>
-                <ul class="list">
+                <ul class="list-benefits">
                     <li>
                         <h3 class="column-title">Увага до деталей</h3>
                         <p class="column-descr"> Ідейні міркування, і навіть початок повсякденної роботи з формування позиції.</p>
@@ -82,7 +80,7 @@
         <section class="section no-padding">
             <div class="container">
                     <h2 class="section-title work">Чим ми займаємося</h2>
-                <ul class="list"> 
+                <ul class="list-team"> 
                     <li> <img class="work-photo" src="./images/box1(1).jpg"
                             alt="фото в фіолетовому тоні з руками друкуючими текст на клавіатурі"
                             width="370" 
@@ -102,40 +100,52 @@
             </div>
         </section>
 
-        <section class="section">
+        <section class="team section">
             <div class="container">
                     <h2 class="section-title">Наша команда</h2>
-                <ul class="list team">
+                <ul class="team-list">
                     <li class="team">
                         <img src="./images/teamcard1(1).jpg" alt="Product Designer"
                         width="270"
                         height="260">
-                        <h3 class="name">Ігор Дем'яненко</h3> 
-                        <p class="role"  lang="en">Product Designer</p>
+                        <div class="namerole">
+                            <h3 class="name">Ігор Дем'яненко</h3> 
+                            <p class="role"  lang="en">Product Designer</p>
+                        </div>
+                        
                     </li>
 
                     <li class="team">
                         <img src="./images/teamcard2(1).jpg" alt="Frontend Developer"
                         width="270"
                         height="260">
-                        <h3 class="name">Ольга Рєпіна</h3> 
-                        <p class="role"  lang="en">Frontend Developer</p>
+                        <div class="namerole">
+                            <h3 class="name">Ольга Рєпіна</h3> 
+                            <p class="role"  lang="en">Frontend Developer</p>
+                        </div>
+                        
                     </li>
 
                     <li class="team">
                         <img src="./images/teamcard3(1).jpg" alt="Marketing"
                         width="270"
                         height="260">
-                        <h3 class="name">Микола Тарасов</h3> 
-                        <p class="role"  lang="en">Marketing</p>
+                        <div class="namerole">
+                            <h3 class="name">Микола Тарасов</h3> 
+                            <p class="role"  lang="en">Marketing</p>
+                        </div>
+                        
                     </li>
 
                     <li class="team">
                         <img src="./images/teamcard4(1).jpg" alt="UI Designer"
                         width="270"
                         height="260">
-                        <h3 class="name">Михайло Єрмаков</h3> 
-                        <p class="role" lang="en">UI Designer</p>
+                        <div class="namerole">
+                            <h3 class="name">Михайло Єрмаков</h3> 
+                            <p class="role" lang="en">UI Designer</p>
+                        </div>
+                        
                     </li>
 
                 </ul>
@@ -145,8 +155,8 @@
 
     <footer class="footer">
         <div class="container">
-            <nav class="footer-li">   
-                 <a class="footer-logo" href="WebStudio"> <span>Web</span>Studio</a>
+              
+            <a class="footer-logo" href="WebStudio"> <span>Web</span>Studio</a>
                 <address>
                 <ul class="footer-list">
                     <li><a class="adress" href="https://goo.gl/maps/pS8TxzaBrTARouAY9">м. Київ, пр-т Лесі Українки, 26</a> </li>
@@ -154,7 +164,7 @@
                     <li><a class="footer contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
                 </ul>
                 </address>
-            </nav>
+        
               
         </div>
     </footer>
