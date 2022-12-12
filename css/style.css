@@ -47,9 +47,12 @@
 
 .section.no-padding{
    padding-top: 0px;
-   padding-bottom: 0px;
+   padding-bottom: 94px;
 }
 
+.team.section{
+   padding-top: 0px;
+}
 
    /*Header*/
 
@@ -59,12 +62,17 @@
  }
 
  .site-nav {
- gap: 50px;
+    gap: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
  }
 
  .auth-nav{
    gap: 40px;
    justify-content: end;
+   padding-top: 25px;
+   padding-bottom: 25px;
+   align-items: center;
  }
    
 
@@ -76,14 +84,13 @@
  }
 
    .header {
-   padding-top: 25px;
-   padding-bottom: 25px;
    border-bottom: 1px solid #ECECEC;
 
 }
 
 .container.header-nav{
    display: flex;
+   height: 80px;
 }
 
  .logo{
@@ -95,6 +102,8 @@
     text-decoration: none;
     text-align: start;
     margin-right: 93px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 
  }
 
@@ -115,8 +124,7 @@
     letter-spacing: 0.02em;
     text-decoration: none;
 
-    padding-top: 21px;
-    padding-bottom: 21px;
+    
     display: block;
 
  }
@@ -138,8 +146,6 @@
     text-decoration: none;
     font-style: normal;
 
-    padding-top: 21px;
-    padding-bottom: 21px;
     display: block;
  
     margin-left: auto;
@@ -155,8 +161,9 @@
 /* main */
 
  .section-main {
-    background-color: rgba(47, 48, 58, 1);
+
     padding: 200px 0px;
+    background-color: rgba(47, 48, 58, 1);
  }
 
  .main-button {
@@ -248,7 +255,6 @@
    display: flex;
    gap: 30px;
    flex-basis: content;
-   padding-bottom: 94px;
 
 }
 
@@ -279,6 +285,7 @@
    text-align: center;
 
    width: 270px;
+   background-color: var(--white-color);
 
 }
 
@@ -299,7 +306,6 @@
     font-size: 16px;
     line-height: 1.18;
 
-   margin-top: 30px;
    margin-bottom: 10px;
    margin-right: 0px;
 
@@ -328,6 +334,7 @@
    
 
    .footer-logo{
+      display: inline-block;
     color:rgba(255, 255, 255, 1);
 
     font-family: 'Raleway';
@@ -435,7 +442,6 @@
 
     letter-spacing: 0.06em;
 
-    margin-top: 20px;
     margin-bottom: 4px;
 }
 
