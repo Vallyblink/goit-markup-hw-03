@@ -47,12 +47,9 @@
 
 .section.no-padding{
    padding-top: 0px;
-   padding-bottom: 94px;
+   
 }
 
-.team.section{
-   padding-top: 0px;
-}
 
    /*Header*/
 
@@ -63,15 +60,11 @@
 
  .site-nav {
     gap: 50px;
-    padding-top: 25px;
-    padding-bottom: 25px;
  }
 
  .auth-nav{
    gap: 40px;
    justify-content: end;
-   padding-top: 25px;
-   padding-bottom: 25px;
    align-items: center;
  }
    
@@ -79,7 +72,7 @@
  .main-nav{
    display: flex;
    align-items: center;
-   margin-right: 200px;
+   margin-right: auto;
    
  }
 
@@ -90,7 +83,6 @@
 
 .container.header-nav{
    display: flex;
-   height: 80px;
 }
 
  .logo{
@@ -123,12 +115,13 @@
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
-
-    
     display: block;
+     padding-top: 32px;
+    padding-bottom:32px ;
 
  }
 
+ 
 
  .navigation:hover,
  .navigation:focus{
@@ -149,6 +142,8 @@
     display: block;
  
     margin-left: auto;
+        padding-top: 32px;
+         padding-bottom: 32px;
 
  }
 
@@ -365,14 +360,14 @@
       font-size: 14px;
       line-height: 1.14;
       letter-spacing: 0.03em;
-      margin-bottom: 12px;
-      padding: 0 0;
+      padding-top: 0;
+      padding-bottom: 0;
 
 
     }
 
     .footer-list li :not(last child){
-      margin-bottom: 8px;
+      margin-bottom: 12px;
     }
 
     /*------------------------------------- PortfolioPage --------------------*/
